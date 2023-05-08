@@ -1,9 +1,143 @@
+/* Call Fonts From Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
 
-/* Reset below properties for all page elements */
+/* Start Variables */
+
+:root {
+    --main-color: #173F5C;
+}
+
+/* End Variables */
+/* Reset Some properties and Set Global Rules */
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     border: 0;
 }
+
+html {
+    /* This property if we press a link to go somewhere inside page will go Smoothly to that place inside page */
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    
+}
+
+ul {
+    /* Reset ul inside our pages and remove style from it*/
+    list-style: none;
+}
+
+/* Main Container that include all page content inside the page */
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-lefT: auto;
+    margin-right: auto;
+}
+
+
+/* Small Screens */
+@media screen and (min-width: 768px) {
+    .container {
+        width: 750px;
+    }
+}
+/* Medium Screens */
+@media screen and (min-width: 992px) {
+    .container {
+        width: 1170px;
+    }    
+}
+/* Large Screens */
+@media screen and (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+}
+/* End Global Rules */
+
+/* Start Header */
+header {
+
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+header .container::after {
+    content: "";
+    position: absolute;
+    height: 1px;
+    background-color: #B4C9D8;
+    bottom: 0;
+    width: calc(100% - 30px);
+    left: 15px;
+   /* bottom: -1px; */
+}
+
+.container img {
+    height: 80px;
+    padding: 0;
+    margin: 10px 0 0 0;
+    display: inline-block;
+}
+
+header nav {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;   
+}
+
+nav ul {
+    display: flex;
+
+}
+
+header nav ul li a {
+    padding: 40px 10px;
+    display: block;
+    color: black;
+    text-decoration: none;
+    font-size: 14px;
+    transition: 0.3s;
+    position: relative;
+    z-index: 200;
+    
+}
+
+header nav ul li a.active,
+header nav ul li a:hover {
+    color: var(--main-color);
+    border-bottom: 1px solid var(--main-color);
+}
+
+header nav .form {
+    width: 40px;
+    height: 30px;
+    position: relative;
+    margin-left: 30px;
+    border-left: 1px solid var(--main-color);
+}
+
+header nav .form i {
+    color: black;
+    position: absolute;
+    top: 50%;
+    font-size: 20px;
+    transform: translateY(-50%);
+    right: 0;
+
+}
+
+
+/* End Header */
 
