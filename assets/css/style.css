@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
 
 /* Start Variables */
-
+/*Add some Variables in global scope*/
 :root {
     --main-color: #173F5C;
 }
@@ -22,6 +22,7 @@ html {
 }
 
 body {
+    /*Set the main font for my website*/
     font-family: "Open Sans", sans-serif;
     
 }
@@ -45,6 +46,10 @@ ul {
     .container {
         width: 750px;
     }
+    /* hide burger icon in larg screens */
+    header nav .burger-icon {
+        display: none;
+    }
 }
 /* Medium Screens */
 @media screen and (min-width: 992px) {
@@ -62,16 +67,21 @@ ul {
 
 /* Start Header */
 header {
-
+    position: absolute;
+    width: 100%;
+    left: 0;
+    z-index: 2;
 }
-
+/* change position for the elements inside the header div container*/
 header .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
     position: relative;
+    min-height: 97px;
 }
 
+/* use pesudo element to make line decoration below the navigation bar and company logo */
 header .container::after {
     content: "";
     position: absolute;
@@ -80,28 +90,53 @@ header .container::after {
     bottom: 0;
     width: calc(100% - 30px);
     left: 15px;
-   /* bottom: -1px; */
+   /* bottom: -1px; (i don't need it because it make the line more thick and not showed good)*/
 }
 
+/* styles for company logo */
 .container img {
     height: 80px;
     padding: 0;
     margin: 10px 0 0 0;
     display: inline-block;
 }
-
+/* styles to navigation bar to fit exactly in page */
 header nav {
     flex: 1;
     display: flex;
     align-items: center;
     justify-content: flex-end;   
 }
-
+header nav .burger-icon {
+    color: var(--main-color);
+    font-size: 22px;
+}
 nav ul {
     display: flex;
-
 }
 
+@media screen and (max-width: 767px) {
+    /* Navigation bar disapear in small/mobile screens */
+    header nav ul {
+        display: none;
+    }
+    /* Reshow the navigation bar in columns to fit in mobile screens */
+    header nav .burger-icon:hover + ul {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background-color: #a2a2a2;
+    }
+    header nav .burger-icon:hover + ul li a {
+        /* change the padding to smaller in a elements/nav bar and make it Important */
+        padding: 15px !important;
+    }
+}
+
+/* add style for the nav bar elements */
 header nav ul li a {
     padding: 40px 10px;
     display: block;
@@ -111,15 +146,15 @@ header nav ul li a {
     transition: 0.3s;
     position: relative;
     z-index: 200;
-    
 }
 
+/* styles for nav bar items when it's active and mouse hover */
 header nav ul li a.active,
 header nav ul li a:hover {
     color: var(--main-color);
     border-bottom: 1px solid var(--main-color);
 }
-
+/* the father of search icon we give these styles and add border left for decoration */
 header nav .form {
     width: 40px;
     height: 30px;
@@ -128,14 +163,14 @@ header nav .form {
     border-left: 1px solid var(--main-color);
 }
 
+/* change the position and style such color and size for the search icon that we call it from fontawesome */
 header nav .form i {
-    color: black;
+    color: var(--main-color);
     position: absolute;
     top: 50%;
-    font-size: 20px;
+    font-size: 15px;
     transform: translateY(-50%);
     right: 0;
-
 }
 
 
