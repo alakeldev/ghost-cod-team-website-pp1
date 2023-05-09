@@ -4,7 +4,7 @@
 /* Start Variables */
 /*Add some Variables in global scope*/
 :root {
-    --main-color: #173F5C;
+    --main-color-font: #03045E;
 }
 
 /* End Variables */
@@ -46,15 +46,12 @@ ul {
     .container {
         width: 750px;
     }
-    /* hide burger icon in larg screens */
-    header nav .burger-icon {
-        display: none;
-    }
+
 }
 /* Medium Screens */
 @media screen and (min-width: 992px) {
     .container {
-        width: 1170px;
+        width: 980px; 
     }    
 }
 /* Large Screens */
@@ -86,7 +83,7 @@ header .container::after {
     content: "";
     position: absolute;
     height: 1px;
-    background-color: #B4C9D8;
+    background-color: #fafafa;
     bottom: 0;
     width: calc(100% - 30px);
     left: 15px;
@@ -107,8 +104,15 @@ header nav {
     align-items: center;
     justify-content: flex-end;   
 }
+
+@media screen and (min-width: 768px) {
+    /* hide burger icon in larg screens */
+    header nav .burger-icon {
+        display: none;
+    }
+}
 header nav .burger-icon {
-    color: var(--main-color);
+    color: var(--main-color-font);
     font-size: 22px;
 }
 nav ul {
@@ -128,31 +132,37 @@ nav ul {
         top: 100%;
         left: 0;
         width: 100%;
-        background-color: #a2a2a2;
+        background-color: rgba(136, 158, 185, 0.59);
     }
     header nav .burger-icon:hover + ul li a {
         /* change the padding to smaller in a elements/nav bar and make it Important */
         padding: 15px !important;
     }
+    header .container::after {
+        display: none;
+    }
+
+
 }
 
 /* add style for the nav bar elements */
 header nav ul li a {
     padding: 40px 10px;
     display: block;
-    color: black;
+    color: var(--main-color-font);
     text-decoration: none;
     font-size: 14px;
     transition: 0.3s;
     position: relative;
     z-index: 200;
+    text-transform: uppercase;
 }
 
 /* styles for nav bar items when it's active and mouse hover */
 header nav ul li a.active,
 header nav ul li a:hover {
     color: var(--main-color);
-    border-bottom: 1px solid var(--main-color);
+    border-bottom: 1px solid var(--main-color-font);
 }
 /* the father of search icon we give these styles and add border left for decoration */
 header nav .form {
@@ -160,19 +170,119 @@ header nav .form {
     height: 30px;
     position: relative;
     margin-left: 30px;
-    border-left: 1px solid var(--main-color);
+    border-left: 1px solid var(--main-color-font);
 }
 
 /* change the position and style such color and size for the search icon that we call it from fontawesome */
 header nav .form i {
-    color: var(--main-color);
+    color: var(--main-color-font);
     position: absolute;
     top: 50%;
     font-size: 15px;
     transform: translateY(-50%);
     right: 0;
 }
-
-
 /* End Header */
+
+/*Start Section Landing*/
+
+/* add my landing image and make it cover */
+#landing-home {
+    min-height: 100vh;
+    background-image: url(../images/home-landing-img1.jpg);
+    background-size: cover;
+    position: relative;
+    display: flex;
+}
+/* Add media quiery for landing image background to make it fit on mobile screens */
+@media screen and (max-width: 1150px) {
+    #landing-home {
+        min-height: 100vh;
+        background-image: url(../images/home-landing-img1.jpg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: relative;
+        display: flex;
+        background-color: #9ac2f2;
+    }
+}
+
+/* add an over layer decoration on image */
+#landing-home #overlay-home {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(161, 196, 240, 40%);
+}
+#text1, #text2, #text3, #text4 {
+    position: absolute;
+    width: 5%;
+    height: 5%;
+    padding: 50px;
+    background-color: rgb(255, 255, 255, 20%);
+    color: var(--main-color-font);
+    border-radius: 50%;
+  
+}
+
+#text1 {
+    top: 25%;
+    left: 10%;
+}
+#text2 {
+    top: 25%;
+    left: 30%;
+}
+#text3 {
+    top: 25%;
+    left: 50%;
+
+}
+#text4 {
+   top: 25%;
+   left: 70%;
+}
+
+@media screen and (min-width: 1285px) {
+    #text1 {
+        top: 25%;
+        left: 15%;
+    }
+    #text2 {
+        top: 25%;
+        left: 35%;
+    }
+    #text3 {
+        top: 25%;
+        left: 55%;
+    
+    }
+    #text4 {
+       top: 25%;
+       left: 75%;
+    }
+}    
+
+.content {
+    max-width: 20px;
+    max-height: 20px;
+    position: relative;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+h2 {
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 1.5;
+    text-transform: uppercase;
+    position: absolute;
+}
+
+
+/*End Section Landing*/
 
