@@ -72,6 +72,7 @@ header .container {
     align-items: center;
     flex-wrap: wrap;
 }
+/* Add media rules (responsive) to Div container that contain the logo and nav elements*/
 @media screen and (max-width: 767px) {
     header .container {
         justify-content: center;
@@ -118,6 +119,7 @@ header .main-nav li a {
     overflow: hidden;
     transition: var(--main-transition);
 }
+/* Add media rules (responsive) a element inside nav bar */
 @media screen and (max-width: 767px) {
     header .main-nav li a {
         padding: 15px;
