@@ -1,32 +1,39 @@
 /* Google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
 /*Set global scope variables for the some properties that will use it as one value in all web pages*/
 :root {
     --main-color: rgb(27, 145, 241);
 }
+
 /* Start global rules to all pages */
 * {
     /* Make all elements respect the width and height that will give */
     box-sizing: border-box;
 }
+
 body {
     /* Give all elements font family open sans and sans-serif as 'alt font' to all web Pages */
     font-family: "Open Sans", sans-serif;
 }
+
 ul {
     /* Reset below properties to all unordered list elemnts*/
     list-style: none;
     margin: 0;
     padding: 0;
 }
+
 a {
     /* Remove underline to all a tags */
     text-decoration: none;
 }
+
 .container {
     padding: 0 15px;
     margin: 0 auto;
 }
+
 /* Start global media rules */
 /*Set width of div container that will contain elements in each section that will make easy to control the elements */
 @media screen and (min-width: 768px) {
@@ -34,15 +41,18 @@ a {
         width: 750px;
     }
 }
+
 @media screen and (min-width: 992px) {
     .container {
         width: 970px;
     }
 }
+
 @media screen and (min-width: 1200px) {
     .container {
         width: 1170px;
     }
 }
+
 /* End global media rules */
 /* End global rules to all pages */
