@@ -4,6 +4,7 @@
 /*Set global scope variables for the some properties that will use it as one value in all web pages*/
 :root {
     --main-color: rgb(27, 145, 241);
+    --main-transition: 0.4s;
 }
 
 /* Start global rules to all pages */
@@ -56,3 +57,88 @@ a {
 
 /* End global media rules */
 /* End global rules to all pages */
+
+/* Start Header */
+/* Targets main header tag */
+header {
+    background-color: white;
+    position: relative;
+    box-shadow: 0 0 15px #ddd;
+}
+/* Targets the div container in header tag */
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+/* Targets a element that has t-logo class inside header tag*/
+header .t-logo {
+    color: var(--main-color);
+    font-size: 28px;
+    height: 71px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 0 0 25px black;
+}
+/* Targets ul tag that has main-nav class inside (header tag --> nav tag) */
+header .main-nav {
+    display: flex;
+}
+/* Targets a elemtns inside (header --> ul --> li) */
+header .main-nav li a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    color: black;
+    height: 71px;
+    padding: 0 28px;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: var(--main-transition);
+}
+
+/*Targets a elemtns inside (header --> ul --> li)*/
+/* here when we hover the cursor above the tag will change the color and give background different from the main status*/
+header .main-nav li a:hover {
+    color: var(--main-color);
+    background-color: rgb(250, 250, 250);
+}
+
+/*Initiate pesudo element (before) that make decoration line above the a element*/
+header .main-nav li a::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    background-color: var(--main-color);
+    top: 0;
+    left: -100%;
+    transition: var(--main-transition);
+}
+/* Change status (before P-element) from left = -100 to left = 0 when we hover the cursor above the a element */
+header .main-nav li a:hover::before {
+    left: 0;
+    transition: var(--main-transition);
+}
+
+/*Initiate pesudo element (after) that make decoration line under the a element*/
+header .main-nav li a::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    background-color: var(--main-color);
+    bottom: 0;
+    right: -100%;
+    transition: var(--main-transition);
+}
+/* Change status (after P-element) from right = -100 to right = 0 when we hover the cursor above the a element*/
+header .main-nav li a:hover::after {
+    right: 0;
+    transition: var(--main-transition);
+}
+/* End Header */
