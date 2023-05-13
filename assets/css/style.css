@@ -27,7 +27,7 @@ a {
     padding: 0 15px;
     margin: 0 auto;
 }
-/* Set global media rules */
+/* Start global media rules */
 /*Set width of div container that will contain elements in each section that will make easy to control the elements */
 @media screen and (min-width: 768px) {
     .container {
@@ -44,4 +44,5 @@ a {
         width: 1170px;
     }
 }
+/* End global media rules */
 /* End global rules to all pages */
