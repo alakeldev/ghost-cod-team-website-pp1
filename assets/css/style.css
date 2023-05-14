@@ -233,6 +233,26 @@ header .main-nav li a:hover::after {
     width: 500px;
     max-width: 100%;
     border-radius: 50%;
+    animation: move-image 5s linear infinite;
 }
+
+/*Start animation to the image inside landing section */
+@keyframes move-image {
+    0% {
+        top: 0;
+    }
+
+    50% {
+        top: -60px;
+    }
+
+    100% {
+        top: 0px;
+    }
+}
+
+/*End animation to the image inside landing section */
+
+
 
 /* End Landing Section */
