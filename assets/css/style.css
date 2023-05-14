@@ -459,6 +459,7 @@ footer .container .social-icons li a {
     color: var(--main-color);
     font-size: 20px;
 }
+
 /* Add media rules (responsive) for screens start from width 992px and more */
 @media screen and (min-width: 992px) {
     footer .container .social-icons li a {
@@ -470,4 +471,40 @@ footer .container .social-icons li a {
         font-size: 30px;
     }
 }
+
 /* End Footer */
+
+
+
+
+/* Start Thank You Page Styling */
+#thank-you-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#thankyou-logo {
+    color: var(--main-color);
+    font-size: 28px;
+    height: 71px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 0 0 25px black;
+}
+
+#thank-you-content {
+    height: 76vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(221, 221, 221);
+}
+
+#thanks {
+    color: var(--main-color);
+}
+
+/* End Thank You Page Styling */
