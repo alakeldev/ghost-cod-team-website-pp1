@@ -63,7 +63,7 @@ a {
 header {
     background-color: white;
     position: relative;
-    box-shadow: 0 0 15px #ddd;
+    box-shadow: 0 0 15px rgb(221, 221, 221);
 }
 
 /* Targets the div container in header tag */
@@ -420,3 +420,44 @@ also the div contain main header and main paragraph also target the paragraph an
 /* End animation to the arrow icon to make it move when we hover over the event */
 
 /* End Events Section*/
+/* Start Footer */
+
+/* Targets footer tag */
+footer {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: white;
+    position: relative;
+    box-shadow: 0 0 15px rgb(221, 221, 221);
+    color: var(--main-color);
+}
+
+/* Targets the container inside footer tag that contain all footer elements */
+footer .container {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* Targets only h3 (find us on:) */
+footer .container h3 {
+    text-transform: uppercase;
+}
+
+/* Targets unordered list that has class .social-icons */
+footer .container .social-icons {
+    display: flex;
+    align-items: center;
+}
+
+/* Targets the list items inside unordered list of social icons */
+footer .container .social-icons li {
+    padding-right: 30px;
+}
+
+/* Targets a link inside of li of the unordered list */
+footer .container .social-icons li a {
+    color: var(--main-color);
+    font-size: 20px;
+}
+
+/* End Footer */
