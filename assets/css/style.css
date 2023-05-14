@@ -459,5 +459,15 @@ footer .container .social-icons li a {
     color: var(--main-color);
     font-size: 20px;
 }
+/* Add media rules (responsive) for screens start from width 992px and more */
+@media screen and (min-width: 992px) {
+    footer .container .social-icons li a {
+        font-size: 30px;
+        padding-right: 60px;
+    }
 
+    footer .container h3 {
+        font-size: 30px;
+    }
+}
 /* End Footer */
