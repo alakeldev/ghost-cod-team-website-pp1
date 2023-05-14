@@ -215,14 +215,14 @@ header .main-nav li a:hover::after {
 
 /* Targets the div that contain main header and main paragraph */
 .landing .main-header-prg {
-    flex: -1;
+    flex: 1;
 }
 
 /* Targets the main header only inside div with class .main-header-prg (landing section------> .main-header-prg */
 .landing .main-header-prg h1 {
     font-size: 40px;
     margin: 0;
-    letter-spacing: -1;
+    letter-spacing: -1px;
     text-transform: uppercase;
 }
 
@@ -478,6 +478,8 @@ footer .container .social-icons li a {
 
 
 /* Start Thank You Page Styling */
+/*All Elements targeted by ID and fast styling for the page*/
+
 #thank-you-container {
     display: flex;
     justify-content: center;
