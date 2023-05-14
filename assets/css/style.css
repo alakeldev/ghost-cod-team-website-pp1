@@ -1,7 +1,7 @@
 /* Google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
 
-/*Set global scope variables for the some properties that will use it as one value in all web pages*/
+/* Set global scope variables for the some properties that will use it as one value in all web pages */
 :root {
     --main-color: rgb(27, 145, 241);
     --main-transition: 0.4s;
@@ -19,7 +19,7 @@ body {
 }
 
 ul {
-    /* Reset below properties to all unordered list elemnts*/
+    /* Reset below properties to all unordered list elemnts */
     list-style: none;
     margin: 0;
     padding: 0;
@@ -36,7 +36,7 @@ a {
 }
 
 /* Start global media rules */
-/*Set width of div container that will contain elements in each section that will make easy to control the elements */
+/* Set width of div container that will contain elements in each section that will make easy to control the elements */
 @media screen and (min-width: 768px) {
     .container {
         width: 750px;
@@ -74,14 +74,14 @@ header .container {
     flex-wrap: wrap;
 }
 
-/* Add media rules (responsive) to Div container that contain the logo and nav elements*/
+/* Add media rules (responsive) to Div container that contain the logo and nav elements */
 @media screen and (max-width: 767px) {
     header .container {
         justify-content: center;
     }
 }
 
-/* Targets a element that has t-logo class inside header tag*/
+/* Targets a element that has t-logo class inside header tag */
 header .t-logo {
     color: var(--main-color);
     font-size: 28px;
@@ -136,14 +136,14 @@ header .main-nav li a {
     }
 }
 
-/*Targets a elemtns inside (header --> ul --> li)*/
-/* here when we hover the cursor above the tag will change the color and give background different from the main status*/
+/* Targets a elemtns inside (header --> ul --> li) */
+/* here when we hover the cursor above the tag will change the color and give background different from the main status */
 header .main-nav li a:hover {
     color: var(--main-color);
     background-color: rgb(250, 250, 250);
 }
 
-/*Initiate pesudo element (before) that make decoration line above the a element*/
+/* Initiate pesudo element (before) that make decoration line above the a element */
 header .main-nav li a::before {
     content: "";
     position: absolute;
@@ -161,7 +161,7 @@ header .main-nav li a:hover::before {
     transition: var(--main-transition);
 }
 
-/*Initiate pesudo element (after) that make decoration line under the a element*/
+/* Initiate pesudo element (after) that make decoration line under the a element */
 header .main-nav li a::after {
     content: "";
     position: absolute;
@@ -173,7 +173,7 @@ header .main-nav li a::after {
     transition: var(--main-transition);
 }
 
-/* Change status (after P-element) from right = -100 to right = 0 when we hover the cursor above the a element*/
+/* Change status (after P-element) from right = -100 to right = 0 when we hover the cursor above the a element */
 header .main-nav li a:hover::after {
     right: 0;
     transition: var(--main-transition);
@@ -181,12 +181,13 @@ header .main-nav li a:hover::after {
 
 /* End Header */
 /* Start Landing Section */
-/* Targets landing section and put position: relative value so it'S childs can move easy inside of it*/
+/* Targets landing section and put position: relative value so it'S childs can move easy inside of it */
 .landing {
     position: relative;
 }
 
-/* Create pseudo element before for landing section to make the back ground as color below and give index: -1 to make all element above it */
+/* Create pseudo element before for landing section to make the back ground as color below and
+   give index: -1 to make all element above it */
 .landing::before {
     content: "";
     position: absolute;
@@ -225,7 +226,7 @@ header .main-nav li a:hover::after {
     text-transform: uppercase;
 }
 
-/* Add media rules (responsive) to main header inside landing section*/
+/* Add media rules (responsive) to main header inside landing section */
 @media screen and (max-width: 767px) {
     .landing .main-header-prg h1 {
         font-size: 22px;
@@ -241,7 +242,7 @@ header .main-nav li a:hover::after {
     max-width: 500px;
 }
 
-/* Add media rules (responsive) to main paragraph inside landing section*/
+/* Add media rules (responsive) to main paragraph inside landing section */
 @media screen and (max-width: 767px) {
     .landing .main-header-prg p {
         font-size: 18px;
@@ -258,7 +259,7 @@ header .main-nav li a:hover::after {
 }
 
 /* Add media rules (responsive) for screens till max-width: 991px to main container in landing section 
-also the div contain main header and main paragraph also target the paragraph and main header separately*/
+also the div contain main header and main paragraph also target the paragraph and main header separately */
 @media screen and (max-width: 991px) {
     .landing .container {
         flex-direction: column;
@@ -280,7 +281,7 @@ also the div contain main header and main paragraph also target the paragraph an
     }
 }
 
-/*Start animation to the image inside landing section */
+/* Start animation to the image inside landing section */
 @keyframes move-image {
     0% {
         top: 0;
@@ -316,7 +317,28 @@ also the div contain main header and main paragraph also target the paragraph an
     position: relative;
     border-radius: 10px;
     text-transform: uppercase;
+    animation: color-change 2s linear infinite;
 }
+
+/*Start animation to the main title in events section (Upcoming Events) */
+@keyframes color-change {
+    0% {
+        border-color: black;
+        color: black;
+    }
+
+    50% {
+        border-color: var(--main-color);
+        color: var(--main-color);
+    }
+
+    100% {
+        border-color: black;
+        color: black;
+    }
+}
+
+/* End animation to the main title in events section (Upcoming Events) */
 
 /* Targets the Main container inside the events section */
 .events-content .container {
@@ -331,26 +353,39 @@ also the div contain main header and main paragraph also target the paragraph an
     background-color: white;
     border-radius: 10px;
     overflow: hidden;
+    transition: var(--main-transition);
 }
+
+/* Targets the inside container for each event when we hover the cursor over it */
+.events-content .inside-container:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 2px 15px rgb(0, 0, 0, 0.2);
+}
+
 /* Targers the image of each event inside the inside container */
 .events-content .inside-container img {
     width: 100%;
     max-width: 100%;
 }
+
 /* Targets the div that contain the event title with it'S paragraph inside the inside container for each event */
 .events-content .inside-container .title-prg-event {
     padding: 22px;
 }
+
 /* Targets events title (h3)only in each event */
 .events-content .inside-container .title-prg-event h3 {
     margin: 0;
 }
+
 /* Targets the paragraph only in each event */
 .events-content .inside-container .title-prg-event p {
     margin: 10px 0 0 0;
     line-height: 1.5;
 }
-/* Targets the div that contain the bottom section inside each event that include the link see more and the arrow from fontawesome library */
+
+/* Targets the div that contain the bottom section inside each event that include the link see more
+   and the arrow from fontawesome library */
 .events-content .inside-container .info-event {
     padding: 20px;
     border-top: 1px solid rgb(230, 230, 231);
@@ -358,14 +393,30 @@ also the div contain main header and main paragraph also target the paragraph an
     justify-content: space-between;
     align-items: center;
 }
+
 /* Targets only the a link inside each event (See More) */
 .events-content .inside-container .info-event a {
     color: var(--main-color);
     font-weight: bold;
 }
+
 /* Targets the Arrow fontawesome library */
 .events-content .inside-container .info-event i {
     color: var(--main-color);
 }
+
+/* Targets the arrow (fontawesome) when we hover above the event */
+.events-content .inside-container:hover .info-event i {
+    animation: mv-arrow 0.5s linear infinite;
+}
+
+/* Start animation to the arrow icon to make it move when we hover over the event */
+@keyframes mv-arrow {
+    100% {
+        transform: translateX(10px);
+    }
+}
+
+/* End animation to the arrow icon to make it move when we hover over the event */
 
 /* End Events Section*/
