@@ -204,6 +204,7 @@ header .main-nav li a:hover::after {
     display: flex;
     align-items: center;
 }
+
 /* Add media rules (responsive) to Div container that contain all elements inside landing section */
 @media screen and (max-width: 767px) {
     .landing .container {
@@ -223,6 +224,7 @@ header .main-nav li a:hover::after {
     letter-spacing: -1;
     text-transform: uppercase;
 }
+
 /* Add media rules (responsive) to main header inside landing section*/
 @media screen and (max-width: 767px) {
     .landing .main-header-prg h1 {
@@ -238,6 +240,7 @@ header .main-nav li a:hover::after {
     color: rgb(102, 102, 102);
     max-width: 500px;
 }
+
 /* Add media rules (responsive) to main paragraph inside landing section*/
 @media screen and (max-width: 767px) {
     .landing .main-header-prg p {
@@ -253,6 +256,7 @@ header .main-nav li a:hover::after {
     border-radius: 50%;
     animation: move-image 5s linear infinite;
 }
+
 /* Add media rules (responsive) for screens till max-width: 991px to main container in landing section 
 also the div contain main header and main paragraph also target the paragraph and main header separately*/
 @media screen and (max-width: 991px) {
@@ -261,13 +265,16 @@ also the div contain main header and main paragraph also target the paragraph an
         justify-content: center;
         align-items: center;
     }
+
     .landing .main-header-prg {
         text-align: center;
         margin: 40px;
     }
+
     .landing .main-header-prg p {
         margin: 20px auto;
     }
+
     .landing .main-header-prg h1 {
         letter-spacing: 0;
     }
@@ -288,8 +295,77 @@ also the div contain main header and main paragraph also target the paragraph an
     }
 }
 
-/*End animation to the image inside landing section */
-
-
-
+/* End animation to the image inside landing section */
 /* End Landing Section */
+
+/* Start Events Section */
+/* Targets section tag with class events-content */
+.events-content {
+    position: relative;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+/* Targets the Main title for events section */
+.events-content .events-title {
+    margin: 0 auto 80px;
+    border: 5px solid black;
+    padding: 10px 20px;
+    font-size: 30px;
+    width: fit-content;
+    position: relative;
+    border-radius: 10px;
+    text-transform: uppercase;
+}
+
+/* Targets the Main container inside the events section */
+.events-content .container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 40px;
+}
+
+/* Targets the inside container(for each event) inside the main container in events section tag */
+.events-content .inside-container {
+    box-shadow: 0 2px 15px rgb(0, 0, 0, 0.2);
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+}
+/* Targers the image of each event inside the inside container */
+.events-content .inside-container img {
+    width: 100%;
+    max-width: 100%;
+}
+/* Targets the div that contain the event title with it'S paragraph inside the inside container for each event */
+.events-content .inside-container .title-prg-event {
+    padding: 22px;
+}
+/* Targets events title (h3)only in each event */
+.events-content .inside-container .title-prg-event h3 {
+    margin: 0;
+}
+/* Targets the paragraph only in each event */
+.events-content .inside-container .title-prg-event p {
+    margin: 10px 0 0 0;
+    line-height: 1.5;
+}
+/* Targets the div that contain the bottom section inside each event that include the link see more and the arrow from fontawesome library */
+.events-content .inside-container .info-event {
+    padding: 20px;
+    border-top: 1px solid rgb(230, 230, 231);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* Targets only the a link inside each event (See More) */
+.events-content .inside-container .info-event a {
+    color: var(--main-color);
+    font-weight: bold;
+}
+/* Targets the Arrow fontawesome library */
+.events-content .inside-container .info-event i {
+    color: var(--main-color);
+}
+
+/* End Events Section*/
