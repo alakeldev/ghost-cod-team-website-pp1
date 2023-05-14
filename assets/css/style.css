@@ -204,6 +204,12 @@ header .main-nav li a:hover::after {
     display: flex;
     align-items: center;
 }
+/* Add media rules (responsive) to Div container that contain all elements inside landing section */
+@media screen and (max-width: 767px) {
+    .landing .container {
+        min-height: calc(85vh - 71px);
+    }
+}
 
 /* Targets the div that contain main header and main paragraph */
 .landing .main-header-prg {
@@ -217,6 +223,12 @@ header .main-nav li a:hover::after {
     letter-spacing: -1;
     text-transform: uppercase;
 }
+/* Add media rules (responsive) to main header inside landing section*/
+@media screen and (max-width: 767px) {
+    .landing .main-header-prg h1 {
+        font-size: 22px;
+    }
+}
 
 /* Targets the main paragraph only inside div with class .main-header-prg (landing section------> .main-header-prg */
 .landing .main-header-prg p {
@@ -226,6 +238,12 @@ header .main-nav li a:hover::after {
     color: rgb(102, 102, 102);
     max-width: 500px;
 }
+/* Add media rules (responsive) to main paragraph inside landing section*/
+@media screen and (max-width: 767px) {
+    .landing .main-header-prg p {
+        font-size: 18px;
+    }
+}
 
 /* Targets the landing image inside div with class .land-image ( landing section ------> .land-image */
 .landing .land-image img {
@@ -234,6 +252,25 @@ header .main-nav li a:hover::after {
     max-width: 100%;
     border-radius: 50%;
     animation: move-image 5s linear infinite;
+}
+/* Add media rules (responsive) for screens till max-width: 991px to main container in landing section 
+also the div contain main header and main paragraph also target the paragraph and main header separately*/
+@media screen and (max-width: 991px) {
+    .landing .container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .landing .main-header-prg {
+        text-align: center;
+        margin: 40px;
+    }
+    .landing .main-header-prg p {
+        margin: 20px auto;
+    }
+    .landing .main-header-prg h1 {
+        letter-spacing: 0;
+    }
 }
 
 /*Start animation to the image inside landing section */
