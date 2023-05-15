@@ -473,7 +473,49 @@ footer .container .social-icons li a {
 }
 
 /* End Footer */
+/* Start Gallery Content*/
+/* Targets the main section gallery under class name below */
+.gallery-content {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    position: relative;
+    background-color: rgb(236, 236, 236);
+}
 
+/* Targets the main gallery title under class name below */
+.gallery-title {
+    margin: 0 auto 80px;
+    border: 5px solid black;
+    padding: 10px 20px;
+    font-size: 30px;
+    width: fit-content;
+    position: relative;
+    border-radius: 10px;
+    text-transform: uppercase;
+}
+
+/* Targets each div container inside gallery content section*/
+.gallery-content .container {
+    display: grid;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+/* Targets each div with class image inside gallery content section ------> and inside div container */
+.gallery-content .container .image {
+    padding: 8px;
+    background-color: rgb(236, 236, 236);
+    box-shadow: 0px 12px 20px rgb(0 0 0 / 60%);
+    border-radius: 5%;
+}
+
+/* Targets all img element inside each div with image class inside gallery-content section ----> and inside div container */
+.gallery-content .container .image img {
+    max-width: 100%;
+    border-radius: 5%;
+}
+
+/* End Gallery Content*/
 
 
 
