@@ -600,12 +600,8 @@ footer .container .social-icons li a {
 /* Start Media Rules for Missions Section */
 @media screen and (max-width: 879px) {
     .missions-content {
-        margin-top: 15px;
+        margin-top: 10px;
         height: 100vh;
-    }
-
-    .missions-content video {
-        margin-top: 5px;
     }
 
     .missions-content .missions-text {
