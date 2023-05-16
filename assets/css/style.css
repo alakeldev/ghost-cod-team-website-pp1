@@ -609,7 +609,8 @@ footer .container .social-icons li a {
     }
 
     .missions-content .missions-text {
-        top: 65%;
+        top: 70%;
+        padding: 70px;
     }
 
     .missions-content {
