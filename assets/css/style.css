@@ -541,7 +541,7 @@ footer .container .social-icons li a {
 
 /* Special Media Rule to Creat a layer above the video to cover the video for two reason: 
    make the text above it more readable and also a Decoration,,,,starts from screen 879px and more*/
-@media screen and (min-width: 879px) {
+@media screen and (min-width: 638px) {
 
     /* creat pseudo element (before) */
     .missions-content::before {
