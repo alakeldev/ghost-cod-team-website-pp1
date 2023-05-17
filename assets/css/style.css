@@ -699,6 +699,10 @@ footer .container .social-icons li a {
     text-transform: uppercase;
     cursor: pointer;
 }
+/* Targets only the input with type submit inside the form when we focus on it ( focus on the button )  */
+.contact-content .container form input[type="submit"]:focus {
+    animation: outline-color-change 2s linear infinite;
+}
 
 /* Targets div with info class that contain the additional information to contact us out of the form section */
 .contact-content .container .info {
