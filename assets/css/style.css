@@ -180,6 +180,7 @@ header .main-nav li a:hover::after {
 }
 
 /* End Header */
+
 /* Start Landing Section */
 /* Targets landing section and put position: relative value so it'S childs can move easy inside of it */
 .landing {
@@ -418,10 +419,9 @@ also the div contain main header and main paragraph also target the paragraph an
 }
 
 /* End animation to the arrow icon to make it move when we hover over the event */
-
 /* End Events Section*/
-/* Start Footer */
 
+/* Start Footer */
 /* Targets footer tag */
 footer {
     padding-top: 5px;
@@ -473,6 +473,7 @@ footer .container .social-icons li a {
 }
 
 /* End Footer */
+
 /* Start Gallery Content*/
 /* Targets the main section gallery under class name below */
 .gallery-content {
@@ -513,7 +514,6 @@ footer .container .social-icons li a {
 }
 
 /* Start Animation to change Image frame color */
-
 @keyframes change-img-fram-color {
     50% {
         background-color: var(--main-color);
@@ -525,7 +525,6 @@ footer .container .social-icons li a {
 }
 
 /* End Animation to change Image frame color */
-
 /* Targets all img element inside each div with image class inside gallery-content section ----> and inside div container */
 .gallery-content .container .image img {
     max-width: 100%;
@@ -533,6 +532,7 @@ footer .container .social-icons li a {
 }
 
 /* End Gallery Content*/
+
 /* Start Missions Content */
 /* Section tag with class mission-content is a container for all elements */
 .missions-content {
@@ -543,7 +543,7 @@ footer .container .social-icons li a {
    make the text above it more readable and also a Decoration,,,,starts from screen 879px and more*/
 @media screen and (min-width: 638px) {
 
-    /* creat pseudo element (before) */
+    /* create pseudo element (before) */
     .missions-content::before {
         content: "";
         position: absolute;
@@ -615,7 +615,6 @@ footer .container .social-icons li a {
 }
 
 /* End Media Rules for Missions Section */
-
 /* End Missions Content */
 
 /* Start Contact Content */
@@ -732,13 +731,28 @@ footer .container .social-icons li a {
     padding-left: 5px;
 }
 
+/* Start Media Rules for contact page */
+@media screen and (max-width: 767px) {
 
+    /* Targets the div container that contain all main elements inside contact content section*/
+    .contact-content .container {
+        flex-direction: column;
+    }
 
+    /* Targets the div with class info that contain the additional information to contact us*/
+    .contact-content .container .info {
+        text-align: center;
+        margin-top: 50px;
+    }
 
+    /* Targets the Second element h4 type inside the Div with class info */
+    .contact-content .container .info h4:nth-of-type(2) {
+        margin-top: 25px;
+    }
+}
 
+/* End Media Rules for contact page */
 /* End Contact Content */
-
-
 
 /* Start Thank You Page Styling */
 /*All Elements targeted by ID and fast styling for the page*/
