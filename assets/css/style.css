@@ -618,6 +618,128 @@ footer .container .social-icons li a {
 
 /* End Missions Content */
 
+/* Start Contact Content */
+/* Targets the section with class .contact-content */
+.contact-content {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    position: relative;
+    background-color: rgb(236, 236, 236);
+    min-height: 100vh;
+}
+
+/* Targets only the main page title inside the section with class .contact-content */
+.contact-title {
+    margin: 0 auto 80px;
+    border: 5px solid black;
+    padding: 10px 20px;
+    font-size: 30px;
+    width: fit-content;
+    position: relative;
+    border-radius: 10px;
+    text-transform: uppercase;
+    /* Call previous Animation under name color-image related to Events-section (Upcoming-Events title) */
+    animation: color-change 2s linear infinite;
+}
+
+/* Targets the Div container that contain all main elements inside the section with class .contact-content */
+.contact-content .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Targets the form tag inside section with class .contact-content  */
+.contact-content .container form {
+    flex-basis: 70%;
+}
+
+/* Targets all inputs with class .cont-input inside the form */
+.contact-content .container form .cont-input {
+    padding: 20px;
+    display: block;
+    border: 1px solid rgb(203, 203, 203);
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+/* Targets all inputs with class .cont-input when we press on it and focusing on each input */
+.contact-content .container form .cont-input:focus {
+    animation: outline-color-change 2s linear infinite;
+}
+
+/* Start animation to the outlines of form inputs with class .cont-input */
+@keyframes outline-color-change {
+    0% {
+        outline-color: black;
+    }
+
+    50% {
+        outline-color: var(--main-color);
+    }
+
+    100% {
+        outline-color: black;
+    }
+}
+
+/* End animation to the outlines of form inputs with class .cont-input */
+
+/* Targets the textarea elements with class .cont-input inside form */
+.contact-content .container form textarea.cont-input {
+    height: 180px;
+}
+
+/* Targets only the input with type submit inside the form */
+.contact-content .container form input[type="submit"] {
+    background-color: var(--main-color);
+    color: white;
+    padding: 20px;
+    border: none;
+    display: flex;
+    margin-left: auto;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+/* Targets div with info class that contain the additional information to contact us out of the form section */
+.contact-content .container .info {
+    flex-basis: 20%;
+}
+
+/* Targets all h4 inside the div with class info */
+.contact-content .container .info h4 {
+    text-transform: uppercase;
+    margin-bottom: 25px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* Targets all the span with class tele inside the div with class info */
+.contact-content .container .info .tele {
+    display: block;
+    margin-bottom: 5px;
+    padding-left: 5px;
+}
+
+/* Targets the Second element h4 type inside the Div with class info */
+.contact-content .container .info h4:nth-of-type(2) {
+    margin-top: 150px;
+}
+
+/* Targets address element inside the Div with class info */
+.contact-content .container .info address {
+    line-height: 2;
+    padding-left: 5px;
+}
+
+
+
+
+
+/* End Contact Content */
+
+
+
 /* Start Thank You Page Styling */
 /*All Elements targeted by ID and fast styling for the page*/
 
