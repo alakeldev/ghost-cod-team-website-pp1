@@ -539,8 +539,8 @@ footer .container .social-icons li a {
     position: relative;
 }
 
-/* Special Media Rule to Creat a layer above the video to cover the video for two reason: 
-   make the text above it more readable and also a Decoration,,,,starts from screen 638px and more*/
+/* Special Media Rule to Creat a layer above the video to cover the video for two reasons: 
+   make the text above it more readable and also a Decoration,,,,starts from screens 638px and more */
 @media screen and (min-width: 638px) {
 
     /* create pseudo element (before) */
