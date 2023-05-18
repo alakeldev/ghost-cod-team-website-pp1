@@ -219,6 +219,13 @@ header .main-nav li a:hover::after {
     flex: 1;
 }
 
+/* Add media rules and targets div container for the main header and paragraph in landing section */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .landing .main-header-prg {
+        padding-top: 150px;
+    }
+}
+
 /* Targets the main header only inside div with class .main-header-prg (landing section------> .main-header-prg */
 .landing .main-header-prg h1 {
     font-size: 40px;
@@ -257,6 +264,13 @@ header .main-nav li a:hover::after {
     max-width: 100%;
     border-radius: 50%;
     animation: move-image 5s linear infinite;
+}
+
+/* Add media rules and Targets the Div container for landing image */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .landing .land-image {
+        padding-bottom: 190px;
+    }
 }
 
 /* Add media rules (responsive) for screens till max-width: 991px to main container in landing section 
@@ -699,6 +713,7 @@ footer .container .social-icons li a {
     text-transform: uppercase;
     cursor: pointer;
 }
+
 /* Targets only the input with type submit inside the form when we focus on it ( focus on the button )  */
 .contact-content .container form input[type="submit"]:focus {
     animation: outline-color-change 2s linear infinite;
