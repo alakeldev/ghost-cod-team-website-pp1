@@ -127,11 +127,27 @@ header .main-nav li a {
     transition: var(--main-transition);
 }
 
-/* Add media rules (responsive) a element inside nav bar */
-@media screen and (max-width: 767px) {
+/* Add group of media rules (responsive) for a element inside nav bar */
+@media screen and (min-width:480px) and (max-width: 767px) {
     header .main-nav li a {
         padding: 15px;
         font-size: 14px;
+        height: 40px;
+    }
+}
+
+@media screen and (min-width: 390px) and (max-width: 480px) {
+    header .main-nav li a {
+        padding: 12px;
+        font-size: 13px;
+        height: 40px;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    header .main-nav li a {
+        padding: 8px;
+        font-size: 10px;
         height: 40px;
     }
 }
