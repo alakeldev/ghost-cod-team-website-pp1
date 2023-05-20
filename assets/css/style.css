@@ -632,15 +632,20 @@ footer .container .social-icons li a {
     .missions-content {
         margin-top: 10px;
         height: 100vh;
+        background-color: rgb(236, 236, 236);
     }
 
     .missions-content .missions-text {
-        top: 70%;
+        top: 73%;
         padding: 70px;
     }
 
-    .missions-content {
-        background-color: rgb(236, 236, 236);
+    .missions-content .missions-text h2 {
+        font-size: 15px;
+    }
+
+    .missions-content .missions-text p {
+        font-size: 11px;
     }
 }
 
