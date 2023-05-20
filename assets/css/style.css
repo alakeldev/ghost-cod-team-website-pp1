@@ -351,6 +351,13 @@ also the div contain main header and main paragraph also target the paragraph an
     animation: color-change 2s linear infinite;
 }
 
+/* Add Media Rules to events main title */
+@media screen and (max-width: 354px) {
+    .events-content .events-title {
+        font-size: 24px;
+    }
+}
+
 /*Start animation to the main title in events section (Upcoming Events) */
 @keyframes color-change {
     0% {
@@ -527,6 +534,14 @@ footer .container .social-icons li a {
     animation: color-change 2s linear infinite;
 }
 
+/* Add Media Rules to gallery main title */
+@media screen and (max-width: 354px) {
+    .gallery-content .gallery-title {
+        font-size: 24px;
+    }
+}
+
+
 /* Targets each div container inside gallery content section*/
 .gallery-content .container {
     display: grid;
@@ -674,6 +689,13 @@ footer .container .social-icons li a {
     text-transform: uppercase;
     /* Call previous Animation under name color-image related to Events-section (Upcoming-Events title) */
     animation: color-change 2s linear infinite;
+}
+
+/* Add Media Rules to contact main title */
+@media screen and (max-width: 354px) {
+    .contact-title {
+        font-size: 24px;
+    }
 }
 
 /* Targets the Div container that contain all main elements inside the section with class .contact-content */
