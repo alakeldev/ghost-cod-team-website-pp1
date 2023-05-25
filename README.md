@@ -144,13 +144,16 @@ The Footer also has simple design and contains only links to Ghost team social m
 
 ## Testing
   - Tested Nav bar elements inside all pages.
+  - Tested the animation for the image inside the landing section.
+  - Tested all animation inside nav bar elements also in each card event inside upcoming events section.
   - Tested all links on all pages (social media icons, See More inside upcoming events section) with open to external page as intended.
   - Tested contact form with and without inputs in all fields.
-  - Tested Email field that must the user filling it with Email Syntax (@).
+  - Tested Email field that must the user filling it out with Email Syntax (@).
+  - Tested the animation for outline color when focus on each field inside contact form.
   - Verified that the contact form cannot be submitted without the required information (Name, Email, and Message) with a posiblity to skip for the mobile field and once the information is submitted(SEND MESSAGE Button) the Thank you page will be displayed.
   - Tested See More button inside Missions page that will showing an alert "Thank You for Your Interaction!".
   - Tested the site opens in MS edge, Chrome & Safari without issues.
-  - Tested the favicon appearances in all pages.
+  - Tested the favicon appearances with all website pages.
   - Tested 404 page.
 
 ### Validator Testing
@@ -200,7 +203,7 @@ The Footer also has simple design and contains only links to Ghost team social m
 ### Frameworks, Libraries & Programs Used
 - Google Fonts - for the font families: "Open Sans" main font. San-serif was used as an alternative font.
 - Coolors - to explore different colour schemes that best matched with animated COD gaming team website.
-- Font Awesome - to add icons to the social links in the footer element. Also to add phone and pin location incons to Contact page.
+- Font Awesome - to add icons to the social media links inside footer and the small arrow in each event card in the upcoming events section. Also phone icon and pin location incon inside Contact page.
 - VS-Code - to creat my html files & styling sheet before pushing the project to Github.
 - GitHub - to store my repository and deployed live link for submission.
 - Balsamiq-wireframes - was used to create a basic structure only for the home page before I start 
@@ -244,9 +247,9 @@ The Footer also has simple design and contains only links to Ghost team social m
 - I want to add small note that I played some online games which made me remember all the Situations, details and values inside flexbox and Grid properties with examples. These games are: [Mastery Games](https://mastery.games/post/flexboxzombies2/), [Grid Garden](https://cssgridgarden.com/),and [Flex Froggy](https://flexboxfroggy.com/). "I highly recommend these games to anyone who would like to master flexbox and grid properties".
 
 ### Media
-- The video inside Missions page is From ["Call of Duty Youtube"](https://youtu.be/MbbDADY4GTA)
+- The video inside Missions page is From ["Youtube-Call Of Duty"](https://youtu.be/MbbDADY4GTA).
 
-- The Website images came from hdqwalls website inside games section, Call of Duty game: [Call Of Duty Images](https://hdqwalls.com/call-of-duty-mobile-2019-wallpaper)
+- The Website images came from ["hdqwalls website-Call Of Duty"](https://hdqwalls.com/call-of-duty-mobile-2019-wallpaper).
 
 ### Acknowledgements
 
