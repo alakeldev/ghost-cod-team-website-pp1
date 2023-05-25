@@ -1,11 +1,11 @@
-<h1 align="center"> Ghost Team Website!, Call Of Duty Game </h1>
-Ghost Team is a a real Team in Call of Duty Game, Germany. The Team has been a big part of Call of Duty World championships for many years, Also provides Most Valuable Players (MVPs) for all Call Of Duty events around the world.
+<h1 align="center">&#127918; Ghost Call Of Duty Team Website &#127918;</h1>
+Ghost Team is a real Team in Call of Duty game, Germany. The Team has been participating in all Call of Duty world championships for many years, Also it provides Most Valuable Players (MVPs) for all Call Of Duty events around the world.
 
-The intent of the website is to provides valuable information about Call of Duty Game to all players and COD lovers around the world, And last but not least, push the most valuable players to join Ghost team.
+The aim of the website is to provide valuable information about Call of Duty game to all players and COD lovers around the world, And last but not least, push the MVPs to join Ghost team.
 
 ![Site view across devices](assets/readme-images/ghost-team-responsive.png)
 
-The Ghost Team site is live, the link to which can be found by [CLICK HERE](https://alakeldev.github.io/ghost-cod-team-website-pp1/)
+The Ghost Team site is live, please [CLICK HERE](https://alakeldev.github.io/ghost-cod-team-website-pp1/) to check the website.
 
 ## Tabel of Contents
 - [Tabel of Contents](#tabel-of-contents)
@@ -46,37 +46,38 @@ The Ghost Team site is live, the link to which can be found by [CLICK HERE](http
 ## UX
 
 ### Site Purpose:
-To provide information about Call Of Duty Game, its events, updates, photos to everyone who is visiting the website, also push the most valuable players to join Ghost team that already has many Legendary titles.
+To provide information about Call Of Duty Game, its events, updates and photos to anyone visiting the website. Also to attract the most valuable players to join Ghost team which has alread gained many legendary titles.
 
 ### Site Goal:
-To regularly update our current team members and also the vistors with the latest game information, also provide them with new updates and events of Call Of Duty game. We Keep users coming back to regularly check on this valuable information and later for asking to join Ghost team.
+To regularly update our current team members and also the vistors with the latest game information, also provide them with new updates and events about Call Of Duty game. We Keep users coming back in order to check for those valuable information and have them at later stage joining our Ghost team.
 
 ### Audience:
-Everyone with a love to Call Of Duty game and wants to know all news about it, also willing to attend Call Of Duty events/championships to seek out winning and titles. Your target are all COD players/lovers (women & men) ages 18-35.
+Anyone who has interest in Call Of Duty game and wants to know all news about it. Also those who are willing to attend and participate Call Of Duty events and championships. Your targets are all COD players/lovers (women & men) ages 18-35.
 
 ### Communication:
-With a clear, animated and simple design, this information is readily available to all who visit the site. the user easy knows instantly where they are because of the good and clear website structure.As I mentioned the information is readily available, without having to go through an exhaustive search.
+With a clear, animated and simple design, this information is readily available to website visitors without having them forced to go through an exhaustive search. Also the user easy knows instantly where they are because of the good and clear website structure.
 
 ### Current User Goals:
-- To check Call of Duty last updates, versions, upcoming events and championships, also asking to join Ghost team.
+- To check Call of Duty last updates, versions, upcoming events and championships.
+- looking for new professional players to join our Ghost team.
 
 ### New User Goals:
 - To navigate the site with ease, animate design, simple & clearly understand the information that is being provided.
 - For the information to be always relevant & up-to-date.
-- To be inspired by a striking with animate design that captures my immediate interest, and keeps my focus on the site.
+- To simplify for them the game and show them its unique features comparing to other games.
 
 ## Design
 
 ### Colour Scheme:
-The colour palette was created by [Coolors](https://coolors.co) with the thought to provide as much contrast as possible, without feeling overwhelming. Most of the colour is primarily provided as a simple and calm across the site. However backgrounds were generated in two main colors ( calm gray, and white ) also the text has two main colors (black, sky calm blue) but some text has a one of gray degree color such as a paragraph in landing section and white color for the text inside missions page, also using black shadows with background white or even calm gray such as with photos section in gallery page. The combination of the background color and shadow color, does not overwhelm the user but give simple and stylish feeling. Also with a feature in navigation bar elements, when the cursor hover on each element, that will change the element color from black to calm blue with a very beatiful animation line will show above and below it to bring the users immediate attention to the fact that there is something there to be clicked.
+The colour palette was created by [Coolors](https://coolors.co) with the idea to provide as much contrast as possible, without feeling overwhelming. Most of the colors are primarily provided to be simple and calm across the site. However, backgrounds were generated in two main colors(calm gray and white) also the texts have two main colors (black and sky calm blue) but the paragraph text inside the landing section is having gray, while the text inside missions page is having white color. Also i'm using black shadows with white background and sometimes with calm gray backgrounds like the photos section in gallery page as an example. The combination of the background color and shadow color, does not overwhelm the user but give simple and stylish feeling. I added a feature in navigation bar elements, so when the user hovers over each nav element then the element color will change from black to calm blue, and the background of the same element will change at the same time from white to calm gray. Also simultaneously a very beatiful animation line will show above and below the same element to draw the users attention immediately to the fact that there is something there to be clicked.
 
 ![Colour Palette](assets/readme-images/website-colors.png)
 
 ### Typography:
-Open Sans was selected for the all Website pages as this font is a very famous, simple, readable and clear, also with manipulating between letters spacing and make it bold in some places make it looking great.
+"Open Sans" was selected for the all Website pages as this font is a very famous, simple, readable and clear. also I make the some words looking great by manipulating the space between letters and by making them bold in some other places.
 
 ### Imagery:
-All the imagery on the site, was sources from free gaming stock photo platforms. some photos in gallery section were readjust the brightness, exposure, contrast and shadows to make it more clear and modern to display it.
+All the images on the site were sourced from free gaming stock photo platforms. The brightness, exposure, contrast and shadows of some photos in gallery section were adjusted to make it more clear and modern for displaying.
 
 ## Features
 
@@ -87,58 +88,58 @@ This is included across all the four pages, and provides people with an easy ref
 ![Navigation bar](assets/readme-images/nav-bar.png)
 
 #### Landing Page:
-This defines the feel of the website, providing the user with an animated image goes up and down, and beside this photo there are main title and text that they can easily associate to what the Website is & does.
+It defines the soul of the website, providing the user with an animated image goes up and down, and beside this photo there are main title and text that be can easily associated to what the Website is about.
 
 ![Landing section](assets/readme-images/landing-sec.png)
 
-The upcoming events section is listed right beneath the landing section, its title has feautre of color changing between (black, sky calm blue) to make the visitor more excited. This section is to provide visitors with full information about Call of Duty events, and give important details such as locations, date/time, also other information to give possibility to the COD players and even normal vistor the early planning to attend, for each event has such a card and small arrow on it's footer, when the vistor hover the cursor on event's card the card will moving a littel bit up and the arrow on the card bottom the will start moving till the user move the cursor out of the card, these movings give the visitor good feeling and interact with events selection and if the visitor wants to see more details about the event, easly can click on read more.
+The upcoming events section is listed right beneath the landing section, its title has feautre of color changing between (black, sky calm blue) to make the visitor more excited. This section is to provide visitors with full information about Call of Duty events, and to give important details such as locations, date/time, also other information in order to enable the COD players and even normal vistors to plane their attend early. Each event designed as a card with a small arrow on the bottom of the card so when the vistor hover the cursor on event's card the card will be moving a littel bit up and the arrow on the card bottom of the card will start to move untill the user take the cursor out of the card. These movings give the visitors good feeling and push them to interact with events selection by easliy clicking on Read More link if the visitors want to see more details about that event.
 
 ![Upcoming events](assets/readme-images/evetns-section.png)
 
 #### Gallery Page:
-A big and color changing title has been installed at the top of the page, clearly reminding the users of the page's intent.
+The title of gallery page is big with color changing effect and installed at the top of the page to achieve the goal of reminding the users of the page's intent.
 
 ![Gallery title](assets/readme-images/gallery-title-photo.png)
 
-Next on this page is a Call of Duty photos with a creative decoration frame that changing it's colors and shows that the page are regularly updated with newest photos, as well as the small square decoration with color changing before first photo and after last photo. This start/end decorations will notify creativly the visitor that where the photos start and where will be end.
+Next on this page is a Call of Duty photos with a creative decoration frame that changes its colors and shows that the page is regularly updated with newest photos. Additionally there is one small square decoration with color changing effect before the first photo and another one after the last photo. The purpose fro those two decoration is to notify the visitor in a creative way about the start and the end of the photos.
 
 ![Gallery content](assets/readme-images/gallery-content.png)
 
 #### Missions Page:
-In this page we have an auto play video for the last version of Call of Duty Game, and the video was covered with a top dark layer as a decoration to make the video more elegant and also the main purpose is to make the text content above the video more clear and readable without feeling overwhelming.
+In this page we have an auto play video for the last version of Call of Duty Game, and the video was covered with a top dark layer as a decoration to make the video more elegant and mainly to make the text content above the video more clear and readable without being distracted.
 
 ![Missions content](assets/readme-images/missions-content-normal.png)
 
-The top layer will be disappear in mobile version because the text content will be under the video not above it, and the user can watch the video and read the text below it without any blurred.
+The top layer will disappear in the mobile version because the text content will be under the video not above it, and the user can watch the video and read the text below it without any distraction.
 
 ![Missions content](assets/readme-images/missions-content-mobile.png)
 
-The text section coming with sky calm blue background color and white font to make the user easy to read without make any annoy or non comfort. also provide a button (See More) with simple square design and gray background to guid the user for an external page to show a list of all missions.
+The background of the text section is coming in sky blue color with partially transparent and the font is white to make it easy for the user to read without any inconvenience. Also I provide a (See More) button designed as simple square with a gray background, guid the user for an external page in order to show the list of all missions.
 
 ![Text Missions](assets/readme-images/text-missions-content.png)
 
 #### Contact Page:
-A big and color changing title has been installed at the top of the page, clearly reminding the users of the page's intent.
+The title of contact page is big with color changing effect and installed at the top of the page to achieve the goal of reminding the users of the page's intent.
 
 ![Contact form title](assets/readme-images/contact-title.png)
 
-Once again I have kept the design simplistic. in this page there is a form so that visitors can reach out to Ghost team direct and write their request or messeges, also beside the form provides some information about Ghost team office location with phone numbers so the visitor can call or visit the office direct.
+Once again I have kept the design simple. In this page there is contact form so the visitors can reach out to Ghost team directly and write any requests or messeges. Also I provide beside the form some information about phone numbers and office location in case any visitor would like to be in touch directly with Ghost team.
 
 ![Contact form & office info](assets/readme-images/contact-content.png)
 
-A 'form dump' page has also been included upon the instruction of my mentor Martina who informed me that it was necessary if a form was added to the project. The form-dump page appears as follows...
+A 'thankYou' page has been also included as per the instruction of my mentor Martina who informed me about the necessisty of this page if a form was added to the project. 'thankYou' page appears as follows...
 
 ![Contact form, form dump page](assets/readme-images/dump-form.png)
 
 #### Footer and Social Links :
-The Footer also has simplistic design and contain only links to Ghost team social media pages, and each one will take the user to the social media platform being references.
+The Footer also has simple design and contains only links to Ghost team social media pages, where each Link will take the user to the social media platform as referred in the icon.
 
 ![Footer](assets/readme-images/footer-content.png)
 
 ### Future Features:
-- A map shows main live COD events/championhips locations in Europe.
-- Page for Ghost team members that showing all achievements in details.
-- A page for live broadcasts to all COD chammpionhips around the world.
+- A map shows the live locations for all COD events/championhips around the world.
+- A page to show all titles and tournaments achieved by Ghost team members in details.
+- A page for live broadcasting of all COD championships around the world.
 - Live chatbot.
 
 ## Testing
@@ -157,13 +158,15 @@ The Footer also has simplistic design and contain only links to Ghost team socia
   -  Result for contact.html
 
      ![W3C html validator Contact page](assets/readme-images/contact-checker.png)
+
 - CSS (By using [Jigsaw validator](https://jigsaw.w3.org/css-validator/))
   - Result for style.css
 
      ![Jigsaw validator message](assets/readme-images/css-checker.png)
-  - The Remaining warning mentioned that I have the same background color and foreground color 
-      in Gallery page contexts "but it not make negative effect or conflicut with the user interaction".
+  - The appearing warning mentioned that I have the same color for background and foreground(border) "but it is not making negative effect or conflict with the user interaction".
+
      ![Jigsaw validator warning message](assets/readme-images/warnings-css.png)
+
 - Lighthouse Testing (By using the Lighthouse feature of Google Chrome's Developer Tools)
   - Result for index.html
 
@@ -180,7 +183,7 @@ The Footer also has simplistic design and contain only links to Ghost team socia
 
 - Tested the site opens in MS edge, Chrome & Safari without issues.
 
-- All links open to external tabes as intended.
+- All links open to external page as intended.
 
 ### Unfixed Bugs
 
@@ -190,15 +193,15 @@ The Footer also has simplistic design and contain only links to Ghost team socia
 - CSS3
 
 ### Frameworks, Libraries & Programs Used
-- Google Fonts - for the font families: Open Sans. San-serif was used as a alt font.
+- Google Fonts - for the font families: "Open Sans" main font. San-serif was used as an alternative font.
 - Coolors - to explore different colour schemes that best matched with animated COD gaming team website.
-- Font Awesome - to add icons to the social links in the footer element and phone, pin location incons to Contact page.
+- Font Awesome - to add icons to the social links in the footer element. Also to add phone and pin location incons to Contact page.
 - VS-Code - to creat my html files & styling sheet before pushing the project to Github.
 - GitHub - to store my repository and deployed live link for submission.
-- Balsamiq-wireframes - was used to create a basic structure of the home page before I start 
+- Balsamiq-wireframes - was used to create a basic structure only for the home page before I start 
   initiate the project files & start to code.
-- Am I Responsive? - to ensure the project looked good across all devices.
-- Photo-movie-editor/Microsoft photos app - to readjust the video & images.
+- Am I Responsive? - to ensure the project is looked good across all devices.
+- Photo-movie-editor/Microsoft photos app - to adjust the video & images.
 
 ## Deployment
 ### How to deploy
@@ -219,25 +222,27 @@ The Footer also has simplistic design and contain only links to Ghost team socia
 ## Credits
 
 ### Content
-- My knowledge of implementation is more advanced because of my of my bachelor degree in IT, the initial set up & style was set close to my worked with previous projects in my university which is also similar to the 'Love Running' walk-through project. From there, I took inspiration for the design of the navigation bar, landing section,,,, along with the display of the social links in the footer element.
+- My knowledge the practical implementation is advanced because of my bachelor degree in IT. The initial set up & style are close to my previous projects during my university studies. and also they are similar to the 'Love Running' walk-through project. From there, I took inspiration for the design of the navigation bar, landing section.... along with the display of the social links in the footer.
 
-- The styling of the form element in 'Love Running' was used beside my previouse experince as a starting point for my form, but I never follow the steps of float property to arrange the element places on webpage becuase float is complex and not flexy. So I used to work with flexbox and grid as more easy to control the elements on webpage.
+- My previouse experince in addition to styling the form and gallery page in 'Love Running' project were used as the starting point for my form and gallery page. However I have applied flexbox and grid properties instead of using float property as I did in love running project. this is because of flexbox and grid are more easy to control the elements on my webpage while float is complicated and not flexible.
 
-- I follow my quote since my university study, that said when you start to build html page make sure to build a good structure with semantic elements and Div containers that will make you understand it very well and that will make for you more easy to initiate the correct properties to right targeted element.
+- The way which I have been always following since my studies at university is to start to build html page with good structure using semantic elements and Div containers that will make me understand my webpage very well then will lead me easily to initiate the correct properties to correct targeted element.
 
-- [W3Schools](https://www.w3schools.com/css/css3_mediaqueries.asp) website was used to remember some properites and the correct values range that I want to set in each property, so for me it's the main website after I finished from CSS and HTML curriculum on code-institute website as it helped me in many situations.
+- After finishing and completing html structure for each page, I opened the Google Chrome's Developer Tools and started to add properties there on html elements inorder to monitor the elements behaviour until I got the targeted one. After that should be copied and paste it in css file.
 
-- Most of issues that faced were in Media rules so I follow the way that feel me comfort and well code structured so I set for every element and sometimes in each section it's own media rules then test it and show how it's behaviours with elements page after that I moved to another element or section.
+- [W3Schools](https://www.w3schools.com/css/css3_mediaqueries.asp) This website helped me to remember some properties along with the correct values range of these properties. this website was the main support for me after I have finished the available material from Code Institute.
 
-- I used to read previouse posts on Slack Code-Institute Channels( PP1 / peer code review / my class channel too) these channels are showed old / previous issues that people faced with their code and some solutions provided from alumnis. these info and posts increase my knowledge because I love to read and search in Slack Channels even if i don't have issues with my website or code, because that will make me know more what others facing in their code, also sometimes I replied to them with my solution and see if I'm right or somebody will correct mine or provide another solution.
+- Most of the difficulties that I confronted with were in Media Rules. Therefore the way which i used to overcome these difficulties is to set for each element and sometimes for each section its own Media Rules. Then testing it before I add it and later to commit it.
 
-- I want to add small note that I played some online games that made me remember all the details/values inside flex and Grid properties with examples. These games are: [Mastery Games](https://mastery.games/post/flexboxzombies2/), [Grid Garden](https://cssgridgarden.com/), [Flex Froggy](https://flexboxfroggy.com/) and all very recommended to master these properties.
+- I used to read previouse posts on Slack Code-Institute Channels (PP1, peer code review, my class / Padawans group). These channels and Padawans group are showing past issues that others were facing with their codes in adition to some solutions suggested by alumnis. These info and posts increase my knowledge because I like to read and search in Slack Channels even if i don't have issues with my codes. Hence this will make me know more what others were facing in their codes and in some cases I got the chance to suggegst them my solution and see if it's wrong or correct.
+
+- I want to add small note that I played some online games which made me remember all the Situations, details and values inside flexbox and Grid properties with examples. These games are: [Mastery Games](https://mastery.games/post/flexboxzombies2/), [Grid Garden](https://cssgridgarden.com/),and [Flex Froggy](https://flexboxfroggy.com/). "I highly recommend these games to anyone who would like to master flexbox and grid properties".
 
 ### Media
-- Missions Video is From ["Call of Duty Youtube Video"](https://youtu.be/MbbDADY4GTA)
+- The video inside Missions page is From ["Call of Duty Youtube"](https://youtu.be/MbbDADY4GTA)
 
-- The website images came from hdqwalls website, games section, Call of Duty game: [Call Of Duty Images](https://hdqwalls.com/call-of-duty-mobile-2019-wallpaper)
+- The Website images came from hdqwalls website inside games section, Call of Duty game: [Call Of Duty Images](https://hdqwalls.com/call-of-duty-mobile-2019-wallpaper)
 
 ### Acknowledgements
 
-- I want to say thank you to my mentor Martina, who consistently gave me good advices and helped me keep things in perspective throughout the project.
+- I want to say thank you to my mentor Martina, who consistently gave me good advices and helped me to keep the project within the prospective guidelines.
