@@ -83,7 +83,7 @@ All the images on the site were sourced from free gaming stock photo platforms. 
 
 ### Existing Features
 #### Navigation bar
-This is included across all the four pages, and provides people with an easy reference to navigate between the 'Home', 'Gallery', 'Missions' & 'Contact' pages.
+This is included across all the four pages, and provides people with an easy and animate reference to navigate between the 'Home', 'Gallery', 'Missions' & 'Contact' pages.
 
 ![Navigation bar](assets/readme-images/nav-bar.png)
 
@@ -143,6 +143,15 @@ The Footer also has simple design and contains only links to Ghost team social m
 - Live chatbot.
 
 ## Testing
+  - Tested Nav bar elements inside all pages.
+  - Tested all links on all pages (social media icons, See More inside upcoming events section) with open to external page as intended.
+  - Tested contact form with and without inputs in all fields.
+  - Tested Email field that must the user filling it with Email Syntax (@).
+  - Verified that the contact form cannot be submitted without the required information (Name, Email, and Message) with a posiblity to skip for the mobile field and once the information is submitted(SEND MESSAGE Button) the Thank you page will be displayed.
+  - Tested See More button inside Missions page that will showing an alert "Thank You for Your Interaction!".
+  - Tested the site opens in MS edge, Chrome & Safari without issues.
+  - Tested the favicon appearances in all pages.
+  - Tested 404 page.
 
 ### Validator Testing
 - HTML (By using [W3C validator](https://validator.w3.org/))
@@ -181,10 +190,6 @@ The Footer also has simple design and contains only links to Ghost team social m
 
      ![lighthouse index page](assets/readme-images/contact-page.png)
 
-- Tested the site opens in MS edge, Chrome & Safari without issues.
-
-- All links open to external page as intended.
-
 ### Unfixed Bugs
 
 ## Technologies Used
@@ -222,7 +227,7 @@ The Footer also has simple design and contains only links to Ghost team social m
 ## Credits
 
 ### Content
-- My knowledge the practical implementation is advanced because of my bachelor degree in IT. The initial set up & style are close to my previous projects during my university studies. and also they are similar to the 'Love Running' walk-through project. From there, I took inspiration for the design of the navigation bar, landing section.... along with the display of the social links in the footer.
+- My knowledge in the practical implementation is advanced because of my bachelor degree in IT. The initial set up & style are close to my previous projects during my university studies. and also they are similar to the 'Love Running' walk-through project. From there, I took inspiration for the design of the navigation bar, landing section.... along with the display of the social links in the footer.
 
 - My previouse experince in addition to styling the form and gallery page in 'Love Running' project were used as the starting point for my form and gallery page. However I have applied flexbox and grid properties instead of using float property as I did in love running project. this is because of flexbox and grid are more easy to control the elements on my webpage while float is complicated and not flexible.
 
@@ -234,7 +239,7 @@ The Footer also has simple design and contains only links to Ghost team social m
 
 - Most of the difficulties that I confronted with were in Media Rules. Therefore the way which i used to overcome these difficulties is to set for each element and sometimes for each section its own Media Rules. Then testing it before I add it and later to commit it.
 
-- I used to read previouse posts on Slack Code-Institute Channels (PP1, peer code review, my class / Padawans group). These channels and Padawans group are showing past issues that others were facing with their codes in adition to some solutions suggested by alumnis. These info and posts increase my knowledge because I like to read and search in Slack Channels even if i don't have issues with my codes. Hence this will make me know more what others were facing in their codes and in some cases I got the chance to suggegst them my solution and see if it's wrong or correct.
+- I used to read previouse posts on Slack Code-Institute Channels (PP1, peer code review, my class / Padawans group). These channels and Padawans group are showing past issues that others were facing with their codes in adition to some solutions suggested by alumnis. These info and posts increase my knowledge because I like to read and search in Slack Channels even if i don't have issues with my codes. Hence this will make me know more what others were facing in their codes and in some cases I got the chance to suggest them my solution and see if it's wrong or correct.
 
 - I want to add small note that I played some online games which made me remember all the Situations, details and values inside flexbox and Grid properties with examples. These games are: [Mastery Games](https://mastery.games/post/flexboxzombies2/), [Grid Garden](https://cssgridgarden.com/),and [Flex Froggy](https://flexboxfroggy.com/). "I highly recommend these games to anyone who would like to master flexbox and grid properties".
 
