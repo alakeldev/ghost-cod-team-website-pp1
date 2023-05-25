@@ -10,25 +10,25 @@ The Ghost Team site is live, please [CLICK HERE](https://alakeldev.github.io/gho
 ## Tabel of Contents
 - [Tabel of Contents](#tabel-of-contents)
 - [UX](#ux)
-  - [Site Purpose:](#site-purpose)
-  - [Site Goal:](#site-goal)
-  - [Audience:](#audience)
-  - [Communication:](#communication)
-  - [Current User Goals:](#current-user-goals)
-  - [New User Goals:](#new-user-goals)
+  - [Site Purpose](#site-purpose)
+  - [Site Goal](#site-goal)
+  - [Audience](#audience)
+  - [Communication](#communication)
+  - [Current User Goals](#current-user-goals)
+  - [New User Goals](#new-user-goals)
 - [Design](#design)
-  - [Colour Scheme:](#colour-scheme)
-  - [Typography:](#typography)
-  - [Imagery:](#imagery)
+  - [Colour Scheme](#colour-scheme)
+  - [Typography](#typography)
+  - [Imagery](#imagery)
 - [Features](#features)
   - [Existing Features](#existing-features)
-    - [Navigation bar:](#navigation-bar)
-    - [Landing Page:](#landing-page)
-    - [Gallery Page:](#gallery-page)
-    - [Missions Page:](#missions-page)
-    - [Contact Page:](#contact-page)
-    - [Footer and Social Links :](#footer-and-social-links-)
-  - [Future Features:](#future-features)
+    - [Navigation bar](#navigation-bar)
+    - [Landing Page](#landing-page)
+    - [Gallery Page](#gallery-page)
+    - [Missions Page](#missions-page)
+    - [Contact Page](#contact-page)
+    - [Footer and Social Links](#footer-and-social-links)
+  - [Future Features](#future-features)
 - [Testing](#testing)
   - [Validator Testing](#validator-testing)
   - [Unfixed Bugs](#unfixed-bugs)
@@ -45,49 +45,49 @@ The Ghost Team site is live, please [CLICK HERE](https://alakeldev.github.io/gho
 
 ## UX
 
-### Site Purpose:
+### Site Purpose
 To provide information about Call Of Duty Game, its events, updates and photos to anyone visiting the website. Also to attract the most valuable players to join Ghost team which has alread gained many legendary titles.
 
-### Site Goal:
+### Site Goal
 To regularly update our current team members and also the vistors with the latest game information, also provide them with new updates and events about Call Of Duty game. We Keep users coming back in order to check for those valuable information and have them at later stage joining our Ghost team.
 
-### Audience:
+### Audience
 Anyone who has interest in Call Of Duty game and wants to know all news about it. Also those who are willing to attend and participate Call Of Duty events and championships. Your targets are all COD players/lovers (women & men) ages 18-35.
 
-### Communication:
+### Communication
 With a clear, animated and simple design, this information is readily available to website visitors without having them forced to go through an exhaustive search. Also the user easy knows instantly where they are because of the good and clear website structure.
 
-### Current User Goals:
+### Current User Goals
 - To check Call of Duty last updates, versions, upcoming events and championships.
 - looking for new professional players to join our Ghost team.
 
-### New User Goals:
+### New User Goals
 - To navigate the site with ease, animate design, simple & clearly understand the information that is being provided.
 - For the information to be always relevant & up-to-date.
 - To simplify for them the game and show them its unique features comparing to other games.
 
 ## Design
 
-### Colour Scheme:
+### Colour Scheme
 The colour palette was created by [Coolors](https://coolors.co) with the idea to provide as much contrast as possible, without feeling overwhelming. Most of the colors are primarily provided to be simple and calm across the site. However, backgrounds were generated in two main colors(calm gray and white) also the texts have two main colors (black and sky calm blue) but the paragraph text inside the landing section is having gray, while the text inside missions page is having white color. Also i'm using black shadows with white background and sometimes with calm gray backgrounds like the photos section in gallery page as an example. The combination of the background color and shadow color, does not overwhelm the user but give simple and stylish feeling. I added a feature in navigation bar elements, so when the user hovers over each nav element then the element color will change from black to calm blue, and the background of the same element will change at the same time from white to calm gray. Also simultaneously a very beatiful animation line will show above and below the same element to draw the users attention immediately to the fact that there is something there to be clicked.
 
 ![Colour Palette](assets/readme-images/website-colors.png)
 
-### Typography:
+### Typography
 "Open Sans" was selected for the all Website pages as this font is a very famous, simple, readable and clear. also I make the some words looking great by manipulating the space between letters and by making them bold in some other places.
 
-### Imagery:
+### Imagery
 All the images on the site were sourced from free gaming stock photo platforms. The brightness, exposure, contrast and shadows of some photos in gallery section were adjusted to make it more clear and modern for displaying.
 
 ## Features
 
 ### Existing Features
-#### Navigation bar:
+#### Navigation bar
 This is included across all the four pages, and provides people with an easy reference to navigate between the 'Home', 'Gallery', 'Missions' & 'Contact' pages.
 
 ![Navigation bar](assets/readme-images/nav-bar.png)
 
-#### Landing Page:
+#### Landing Page
 It defines the soul of the website, providing the user with an animated image goes up and down, and beside this photo there are main title and text that be can easily associated to what the Website is about.
 
 ![Landing section](assets/readme-images/landing-sec.png)
@@ -96,7 +96,7 @@ The upcoming events section is listed right beneath the landing section, its tit
 
 ![Upcoming events](assets/readme-images/evetns-section.png)
 
-#### Gallery Page:
+#### Gallery Page
 The title of gallery page is big with color changing effect and installed at the top of the page to achieve the goal of reminding the users of the page's intent.
 
 ![Gallery title](assets/readme-images/gallery-title-photo.png)
@@ -105,7 +105,7 @@ Next on this page is a Call of Duty photos with a creative decoration frame that
 
 ![Gallery content](assets/readme-images/gallery-content.png)
 
-#### Missions Page:
+#### Missions Page
 In this page we have an auto play video for the last version of Call of Duty Game, and the video was covered with a top dark layer as a decoration to make the video more elegant and mainly to make the text content above the video more clear and readable without being distracted.
 
 ![Missions content](assets/readme-images/missions-content-normal.png)
@@ -118,7 +118,7 @@ The background of the text section is coming in sky blue color with partially tr
 
 ![Text Missions](assets/readme-images/text-missions-content.png)
 
-#### Contact Page:
+#### Contact Page
 The title of contact page is big with color changing effect and installed at the top of the page to achieve the goal of reminding the users of the page's intent.
 
 ![Contact form title](assets/readme-images/contact-title.png)
@@ -131,12 +131,12 @@ A 'thankYou' page has been also included as per the instruction of my mentor Mar
 
 ![Contact form, form dump page](assets/readme-images/dump-form.png)
 
-#### Footer and Social Links :
+#### Footer and Social Links
 The Footer also has simple design and contains only links to Ghost team social media pages, where each Link will take the user to the social media platform as referred in the icon.
 
 ![Footer](assets/readme-images/footer-content.png)
 
-### Future Features:
+### Future Features
 - A map shows the live locations for all COD events/championhips around the world.
 - A page to show all titles and tournaments achieved by Ghost team members in details.
 - A page for live broadcasting of all COD championships around the world.
