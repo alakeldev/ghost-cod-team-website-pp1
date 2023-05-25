@@ -247,9 +247,9 @@ The Footer also has simple design and contains only links to Ghost team social m
 - I want to add small note that I played some online games which made me remember all the Situations, details and values inside flexbox and Grid properties with examples. These games are: [Mastery Games](https://mastery.games/post/flexboxzombies2/), [Grid Garden](https://cssgridgarden.com/),and [Flex Froggy](https://flexboxfroggy.com/). "I highly recommend these games to anyone who would like to master flexbox and grid properties".
 
 ### Media
-- The video inside Missions page is From ["Youtube-Call Of Duty"](https://youtu.be/MbbDADY4GTA).
+- The video inside Missions page is from ["Youtube-Call Of Duty"](https://youtu.be/MbbDADY4GTA).
 
-- The Website images came from ["hdqwalls website-Call Of Duty"](https://hdqwalls.com/call-of-duty-mobile-2019-wallpaper).
+- The Website images are from ["hdqwalls website-Call Of Duty"](https://hdqwalls.com/call-of-duty-mobile-2019-wallpaper).
 
 ### Acknowledgements
 
