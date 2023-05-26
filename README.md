@@ -211,6 +211,7 @@ The Footer also has simple design and contains only links to Ghost team social m
   initiate the project files & start to code.
 - Am I Responsive? - to ensure the project is looked good across all devices.
 - Photo-movie-editor/Microsoft photos app - to adjust the video & images.
+- favicon.io - to change the png format to favicon format.
 
 ## Deployment
 ### How to deploy
