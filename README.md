@@ -244,15 +244,9 @@ The Footer also has simple design and contains only links to Ghost team social m
 
 - Most of the difficulties that I confronted with were in Media Rules. Therefore the way which i used to overcome these difficulties is to set for each element and sometimes for each section its own Media Rules. Then testing it before I add it and later to commit it.
 
-- I used to read previouse posts on Slack Code-Institute Channels (PP1, peer code review, my class / Padawans group). These channels and Padawans group are showing past issues that others were facing with their codes in adition to some solutions suggested by alumnis. These info and posts increase my knowledge because I like to read and search in Slack Channels even if i don't have issues with my codes. Hence this will make me know more what others were facing in their codes and in some cases I got the chance to suggest them my solution and see if it's wrong or correct.
-
-- I want to add small note that I played some online games which made me remember all the Situations, details and values inside flexbox and Grid properties with examples. These games are: [Mastery Games](https://mastery.games/post/flexboxzombies2/), [Grid Garden](https://cssgridgarden.com/) and [Flex Froggy](https://flexboxfroggy.com/). "I highly recommend these games to anyone who would like to master flexbox and grid properties".
+- These games are good to understand the flexbox and grid: [Mastery Games](https://mastery.games/post/flexboxzombies2/), [Grid Garden](https://cssgridgarden.com/) and [Flex Froggy](https://flexboxfroggy.com/). "I highly recommend these games to anyone who would like to master flexbox and grid properties".
 
 ### Media
 - The video inside Missions page is from ["Youtube -Call Of Duty"](https://youtu.be/MbbDADY4GTA).
 
 - The Website images are from ["hdqwalls website -Call Of Duty"](https://hdqwalls.com/call-of-duty-mobile-2019-wallpaper).
-
-### Acknowledgements
-
-- I want to say thank you to my mentor Martina, who consistently gave me good advices and helped me to keep the project within the prospective guidelines.
