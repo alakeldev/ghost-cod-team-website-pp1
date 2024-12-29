@@ -39,9 +39,7 @@ The Ghost Team site is live, please [CLICK HERE](https://alakeldev.github.io/gho
   - [How to deploy](#how-to-deploy)
   - [How to clone](#how-to-clone)
 - [Credits](#credits)
-  - [Content](#content)
   - [Media](#media)
-  - [Acknowledgements](#acknowledgements)
 
 ## UX
 
@@ -230,21 +228,6 @@ The Footer also has simple design and contains only links to Ghost team social m
 - The clone process should now begin
 
 ## Credits
-
-### Content
-- My knowledge in the practical implementation is advanced because of my bachelor degree in IT. The initial set up & style are close to my previous projects during my university studies. and also they are similar to the 'Love Running' walk-through project. From there, I took inspiration for the design of the navigation bar, landing section.... along with the display of the social links in the footer.
-
-- My previouse experince in addition to styling the form and gallery page in 'Love Running' project were used as the starting point for my form and gallery page. However I have applied flexbox and grid properties instead of using float property as I did in love running project. this is because of flexbox and grid are more easy to control the elements on my webpage while float is complicated and not flexible.
-
-- The way which I have been always following since my studies at university is to start to build html page with good structure using semantic elements and Div containers that will make me understand my webpage very well then will lead me easily to initiate the correct properties to correct targeted element.
-
-- After finishing and completing html structure for each page, I opened the Google Chrome's Developer Tools and started to add properties there on html elements inorder to monitor the elements behaviour until I got the targeted one. After that should be copied and paste it in css file.
-
-- [W3Schools](https://www.w3schools.com/css/css3_mediaqueries.asp) This website helped me to remember some properties along with the correct values range of these properties. this website was the main support for me after I have finished the available material from Code Institute.
-
-- Most of the difficulties that I confronted with were in Media Rules. Therefore the way which i used to overcome these difficulties is to set for each element and sometimes for each section its own Media Rules. Then testing it before I add it and later to commit it.
-
-- These games are good to understand the flexbox and grid: [Mastery Games](https://mastery.games/post/flexboxzombies2/), [Grid Garden](https://cssgridgarden.com/) and [Flex Froggy](https://flexboxfroggy.com/). "I highly recommend these games to anyone who would like to master flexbox and grid properties".
 
 ### Media
 - The video inside Missions page is from ["Youtube -Call Of Duty"](https://youtu.be/MbbDADY4GTA).
